@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/mobile_style.css" media="screen and (min-width: 320px)">
+    <link rel="stylesheet" href="./style/style.css" media="screen and (min-width: 320px)">
     <title>Batatabit</title>
 </head>
 <body>
@@ -24,26 +24,30 @@
             <img src="./assets/img/Bitcoin.svg" alt="">
             <h2>Visibilizamos todas las tasas de cambio.</h2>
             <p class="section-cash--description">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
-            <h3>Monedas</h3>
-            <table>
-                <tr>
-                    <td>Bitcoin</td>
-                    <td>$ 1.96</td>
-                </tr>
-                <tr>
-                    <td>Ethereum</td>
-                    <td>$ 0.07</td>
-                </tr>
-                <tr>
-                    <td>Ripple</td>
-                    <td>$ 2.15</td>
-                </tr>
-                <tr>
-                    <td>Stellar</td>
-                    <td>$ 4.96</td>
-                </tr>
-            </table>
-            <p><span>Actualizado: </span>19 Julio 23:45</p>
+            <section class="section-cash__table-cash">
+                <table>
+                    <tr>
+                        <td class="table-name">Monedas</td>
+                    </tr>
+                    <tr>
+                        <td class="table__top-left">Bitcoin</td>
+                        <td class="table__top-right table__right">$ 1.96 <span class="negative right"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Ethereum</td>
+                        <td class="table__right">$ 0.07<span class="positive right"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Ripple</td>
+                        <td class="table__right">$ 2.15 <span class="negative right"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="table__bottom-right">Stellar</td>
+                        <td class="table__bottom-left table__right">$ 4.96 <span class="negative right"></span></td>
+                    </tr>
+                </table>
+                <p><span>Actualizado: </span>19 Julio 23:45</p>
+            </section>
         </section>
         <section></section>
         <section></section>
