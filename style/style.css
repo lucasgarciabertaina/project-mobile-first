@@ -257,3 +257,116 @@ td {
     color: var(--just-white);
     padding-top: 64px;
 }
+
+.plans{
+    color: var(--off-white);
+    text-align: center;
+}
+.plans__title{
+    margin: 64px auto 24px auto;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.plans__paragraph{
+    color: var(--off-grey);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 42px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+    height: 247px;
+    border-radius: 8px;
+    background-color: var(--just-white);
+    box-shadow:  0px 4px 8px rgba(89, 73, 30, 0.16);
+    position: relative;
+    scroll-snap-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+.plan__title-pay{
+    color: var(--warm-black);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.plans__choises{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.buttom-plan{
+    position: absolute;
+    top: -15px;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+}
+.plan__price{
+    width: 65px;
+    height: 56px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.08em;
+    color: var(--warm-black-black);
+}
+.plan__cash-symbol{
+    position: absolute;
+    top: 66px;
+    left: 35px;
+    display: inline-block;
+    width: 8px;
+    height: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    line-height: 0;
+    font-weight: 500;
+}
+
+.plan__savings{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--off-grey);
+    margin: 16px 0;
+}
+.plan__choise{
+    width: 151px;
+    height: 48px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    color: var(--warm-black);
+    background-color: var(--off-white);
+}
+.plan__arrow-symbol{
+    display: inline-block;
+    background-image: url('../assets/icons/orange-right-arrow.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
