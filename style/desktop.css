@@ -1,0 +1,7 @@
+.photo{
+    display: none;
+}
+.item{
+    max-width: 570px;
+    margin: 10px
+}

@@ -1,0 +1,25 @@
+.potato-relative{
+    left: calc(50% - 18.725px);
+}
+.section-cash__tables{
+    display: flex;
+    gap: 20px;
+}
+.section-items{
+    height: 575px;
+}
+.section-items__container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: unset;
+    justify-content: center;
+}
+.item--left{
+    margin-right: 4px;
+}
+.item--right{
+    margin-left: 4px;
+}
+.plans__container-slider{
+    justify-content: center;
+}

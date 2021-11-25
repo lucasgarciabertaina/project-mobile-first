@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 62.5%;
+    font-size: 62.5%;   
 }
 body{
     font-family: 'DM Sans', sans-serif;
@@ -171,6 +171,7 @@ td {
 }
 .potato-relative{
     position: relative;
+    left: calc(50% - 18.725px);
     top: 10px;
 }
 .section-items{
@@ -197,6 +198,11 @@ td {
     padding-top: 24px;
     padding-bottom: 32px;
 }
+.section-items__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .item{
     width: 90%;
     min-width: 288px;
@@ -205,7 +211,6 @@ td {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
     background-color: var(--warm-black-black);
-    align-self: center;
     padding-bottom: 16px;
     display: flex;
     flex-direction: column;
@@ -329,6 +334,7 @@ td {
     padding: 6px;
 }
 .plan__price{
+    display: inline-block;
     width: 190px;
     height: 60px;
     padding: 5px 0;
